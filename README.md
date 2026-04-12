@@ -14,3 +14,8 @@ Approach:
    -> Check if sum of digits is a prime number :
    -> If yes, increment count.
 4. Display the final count using alert().
+
+
+Complexity: O(R-L +1)
+
+Q2)
