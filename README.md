@@ -36,5 +36,17 @@ Complexity: O(1)
 
 Q3)
 Approach:
+1. Take inputs N and K
+2. Check for every value of x from 0 to 100000
+   ->get test=N+x
+   ->check if test palindrome AND divisibly by K
+       ->if yes, ans=x
+       -> else ans=-1
+3. return ans
+
+Complexity: O(100000)
+
+Q4)
+Approach:
 1.
    
