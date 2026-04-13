@@ -19,3 +19,22 @@ Approach:
 Complexity: O(R-L +1)
 
 Q2)
+Approach:
+1. Take inputs N and seed
+2. Initialize a variable current = N
+3. Repeat 3 times:
+   -> if current even, update it to (current/2 +seed)
+   -> else update it to (current*3 -seed)
+4. Check if current is a 3-digit number (between 100 and 999).
+   -> if yes, extract the middle digit.
+      ->if middle digit == seed. print "YES",N
+      -> else print "NO"
+   -> else print "NO"
+
+Complexity: O(1)
+
+
+Q3)
+Approach:
+1.
+   
