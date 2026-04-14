@@ -15,10 +15,10 @@ for (let x=0; x <= 100000; x++){
     temp= (temp - digit) /10; 
   }
 
-   if (rev != test)
+   if (rev !== test)
      continue;
 
-  if (test%K == 0){
+  if (test%K === 0){
     ans= x;
     break;
   }
