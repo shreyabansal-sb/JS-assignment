@@ -1,7 +1,6 @@
 # JS-assignment
 FWD, Assignment 4
 
-
 Shreya Bansal, Section-D
 
 
