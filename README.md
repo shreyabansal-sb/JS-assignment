@@ -48,5 +48,14 @@ Complexity: O(100000)
 
 Q4)
 Approach:
-1.
+1. Take inputs base, distance, minutesLate, and seed.
+2. Let fare be base + 7 * distance.
+3. If minutesLate > 15, add 20 to total fare.
+4. If  distance > 10, add 10% of fare to total by math.floor() help
+5. If seed is odd then subtract seed from total fare.
+   ->else, add seed to total fare.
+6.If fare not a multiple of 5 then round it up to the nearest multiple of 5.
+7. Display total final fare
+
+Complexity: O(1)
    
