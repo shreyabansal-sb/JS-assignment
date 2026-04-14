@@ -73,4 +73,13 @@ Complexity: O(m)
 
 Q6)
 Approach:
+1. Take inputs a, b, and c
+2. Let score = 3a + b − 2c
+3. If score is negative then set it to 0.
+4. If (a + b + c) > 50 then subtract 10 from score.
+5. If score >= 60 then result="PASS"
+   -> else result="FAIL"
+6. Print score and result
+
+Complexity: O(1)
    
