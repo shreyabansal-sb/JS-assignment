@@ -4,7 +4,7 @@ let K = Number(prompt("Enter K:"));
 
 let count = 0;
 
-for (let x= L; x <= R; x++) {
+for (var x= L; x <= R; x++) {
   
   if (x%K != 0) 
     continue;
@@ -34,7 +34,7 @@ for (let x= L; x <= R; x++) {
   if (sum < 2) 
     isPrime = 0;
   
-  for (let i = 2; i < sum; i++) {
+  for (var i = 2; i < sum; i++) {
     if (sum % i == 0) {
       isPrime = 0;
       break;
