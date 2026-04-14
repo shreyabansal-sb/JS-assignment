@@ -1,0 +1,27 @@
+let L = Number(prompt("Enter L:"));
+let K = Number(prompt("Enter K:"));
+
+let ans=-1;
+
+for (let x=0; x <= 100000; x++){
+  
+  let test= N+x;
+
+  let temp=test;
+  let rev=0;
+  while (temp>0){
+    let digit = temp%10;
+    rev = rev*10 + digit;
+    temp= (temp - digit) /10; 
+  }
+
+   if (rev != test)
+     continue;
+
+  if (test%K == 0){
+    ans= x;
+    break;
+  }
+}
+
+ alert(ans);
