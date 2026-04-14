@@ -11,7 +11,7 @@
         
         for (let x= L; x <= R; x++) {
             
-            if (x%K != 0) 
+            if (x%K !== 0) 
             continue;
         
             let temp= x;
@@ -23,7 +23,7 @@
                 
                 let digit= temp%10;
                 
-                if (digit ==0) {
+                if (digit ===0) {
                     hasZero=1;
                     break;
                 }
@@ -32,7 +32,7 @@
                 temp = (temp-digit)/10;
             }
             
-            if (hasZero ==1) 
+            if (hasZero ===1) 
             continue;
             
             let isPrime = 1;
@@ -41,13 +41,13 @@
             isPrime = 0;
             
             for (let i = 2; i < sum; i++) {
-                if (sum % i == 0) {
+                if (sum % i === 0) {
                     isPrime = 0;
                     break;
                 }
             }
             
-            if (isPrime == 1) 
+            if (isPrime === 1) 
             count++;
         }
         
