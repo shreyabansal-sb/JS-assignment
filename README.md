@@ -58,4 +58,19 @@ Approach:
 7. Display total final fare
 
 Complexity: O(1)
+
+
+Q5)
+Approach:
+1. Take inputs N and seed
+2. let m=0 and sum=0
+3. Run a loop till sum becomes greater than or equal to N and inside the loop
+   ->Increment m
+   ->f m is not divisible by (seed+2), add it to sum
+4.Print m and sum.
+
+Complexity: O(m)
+
+Q6)
+Approach:
    
